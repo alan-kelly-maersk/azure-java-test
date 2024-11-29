@@ -1,0 +1,18 @@
+title: RedisCacheClient
+description: Redis Cache Client
+openapi-type: arm
+tag: 
+input-file:
+  - specification/redis/resource-manager/Microsoft.Cache/preview/2024-04-01-preview/redis.json
+
+java:
+  clear-output-folder: true
+  license-header: MICROSOFT_MIT_NO_VERSION
+
+module-name: redis
+module-version: 1.0.0
+license-header: MICROSOFT_MIT_NO_VERSION
+output-folder: src/azure/$(module-name)
+azure-arm: true
+rpname: redis
+namespace: rediscache
